@@ -1,4 +1,4 @@
-# Challenge: Tic Tac Toe
+# Challenge: Tic-tac-toe
 
 * **The first move always starts with player X**
 * **The app detects a win or tie and displays an appropriate message**

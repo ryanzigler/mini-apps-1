@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <style>
+      .gameDiv {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      .game {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      td {
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        font-size: x-large;
+      }
+      button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .bottom-right-borders {
+        border-right-style: solid;
+        border-right-color: black;
+        border-right-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 2px;
+      }
+      .bottom-borders {
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 2px;
+      }
+      .right-borders {
+        border-right-style: solid;
+        border-right-color: black;
+        border-right-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gameDiv">
+      <h1>Play Tic Tac Toe</h1>
+      <h3 id="announcements"></h3>
+      <button id="reset">Reset</button>
+      <table class="game">
+        <tbody>
+          <tr>
+            <td cellNum="0" class="square bottom-right-borders"></td>
+            <td cellNum="1" class="square bottom-right-borders"></td>
+            <td cellNum="2" class="square bottom-borders"></td>
+          </tr>
+          <tr>
+            <td cellNum="3" class="square bottom-right-borders"></td>
+            <td cellNum="4" class="square bottom-right-borders"></td>
+            <td cellNum="5" class="square bottom-borders"></td>
+          </tr>
+          <tr>
+            <td cellNum="6" class="square right-borders"></td>
+            <td cellNum="7" class="square right-borders"></td>
+            <td cellNum="8"class="square no-borders"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <script src="app.js"></script>
+  </body>
+</html>
